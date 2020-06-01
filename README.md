@@ -19,7 +19,10 @@ Set host, port, username, password, database, serialPort, measurement and fields
 ## systemd unit file
 install the .service file in your [preferred](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#User%20Unit%20Search%20Path) systemd unit folder.
 
-copy the main.py to /usr/local/pykacopowadorrs232/ 
+```shell
+mkdir /usr/local/pykacopowadorrs232
+cp main.py /usr/local/pykacopowadorrs232
+```
 
 
 ## Kaco Powador Inverter
