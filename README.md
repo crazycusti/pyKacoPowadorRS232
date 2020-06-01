@@ -7,9 +7,9 @@
 - a serial connection!
 
 Debian/Ubuntu
-'''shell
+```shell
 apt-get install python3 python3-influxdb python3-serial
-'''
+```
 
 
 
