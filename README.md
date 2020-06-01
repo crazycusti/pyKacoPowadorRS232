@@ -6,7 +6,7 @@
 - python-InfluxDB
 - a serial connection!
 
-Debian/Ubuntu
+* Debian/Ubuntu
 ```shell
 apt-get install python3 python3-influxdb python3-serial
 ```
