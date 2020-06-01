@@ -6,7 +6,12 @@
 - python-InfluxDB
 - a serial connection!
 
-only tested under Linux/armv6
+Debian/Ubuntu
+'''shell
+apt-get install python3 python3-influxdb python3-serial
+'''
+
+
 
 # Configuration
 Set host, port, username, password, database, serialPort, measurement and fields to your system configuration.
