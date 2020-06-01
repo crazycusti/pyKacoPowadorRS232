@@ -1,0 +1,11 @@
+[Unit]
+Description=Python script to parse RS232 powador data in influxdb
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/pykacopowadorrs232/main.py
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+
+
+[Install]
+WantedBy=default.target
